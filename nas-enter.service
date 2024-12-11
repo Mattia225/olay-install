@@ -1,0 +1,9 @@
+echo [Unit]
+Description=My amazing startup script
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/nas_enter.sh
+
+[Install]
+WantedBy=multi-user.target
